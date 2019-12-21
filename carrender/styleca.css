@@ -1,0 +1,226 @@
+  .button {
+    background-color: #4CAF50; 
+    border: 1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 900px;
+    top: 200px;
+}
+   .calendar{ 
+   position:relative; 
+   top: 5%;
+   left: 25%;
+   width: 960px; 
+}    
+.date{ 
+   width: 120px; 
+   border: 1px solid black;  
+   float: left; 
+   margin: 1px; 
+   background-color:#aeeaae;
+} 
+.today{ 
+   background:#39e600;  
+} 
+
+.days{ 
+   width: 120px; 
+   height: 55px;
+   border: 1px solid black;  
+   float: left; 
+   margin: 1px; 
+   text-align: center;
+   font-size: 25px;
+}           
+.blankday{ 
+   background:#595959; 
+} 
+.date{ 
+   height: 120px; 
+
+} 
+
+.Month{
+   font-size: 42px;
+}
+.b1{
+   position:absolute; 
+   top: 55px;
+   right: 800px;
+}
+.b2{
+   position:absolute; 
+   top: 55px;
+   left: 700px;
+}
+{box-sizing: border-box;}
+
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.appointment{
+  background-color: #CAE1FF;
+  width: 106px;
+  height: 23px;
+  left: 5px;
+  border: 2.5px solid green;
+  border-radius: 6px;
+}
+.tab {
+   position: relative;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-image: url("top.png");
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 25px;
+    color: white;
+}
+.logout{
+  position: absolute;
+  top: 0px;
+  left: 93%;
+  font-size: 0px;
+}
+body{
+  position: static;
+  background-size: 100%;
+  background-image: url("bg.jpg"); 
+}
+.calrendar_bg{
+  position: relative;
+  margin: 50px auto 0px;
+  border: 1px;
+  border-bottom: none;
+  border-radius: 20px 20px 20px 20px;
+  padding: 20px;
+  background-color: white;
+}
+.tap1{
+  position: absolute;
+  top: 4%;
+  width: 50%;
+  height: 10%;
+  left: 25%;
+  margin: 50px auto 0px;
+  border: 1px;
+  border-bottom: none;
+  border-radius: 20px 20px 20px 20px;
+  background-size: 100%;
+  padding: 20px;
+  font-size: 200%;
+  background-image: url("head.jpg"); 
+}
+.texthead{
+  position: absolute;
+  color: blue;
+  top: 70px;
+  left: 760px;
+  font-size: 45px;
+}
+.text_top{
+  color: white;
+}
+
+.delete_btt{
+ position: relative;
+  left: 78%;
+  top: -32%;
+  z-index: 1;
+}
+.day_ca{
+  background-color: red;
+}
+.today_day{
+  background-color: #ffff00;
+}
+.name_day{
+  position: relative;
+  top: 25%;
+}
+.usename{
+  position: absolute;
+  top: 0%;
+  left: 47%;
+  color: white;
+  font-size: 40px;
+}
